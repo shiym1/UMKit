@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'UMKit_Example' do
+  pod 'UMKit', :path => '../'
+
+  target 'UMKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
