@@ -1,0 +1,6 @@
+framework module UMKit {
+  umbrella header "UMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

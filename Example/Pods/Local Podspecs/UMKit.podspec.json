@@ -1,0 +1,28 @@
+{
+  "name": "UMKit",
+  "version": "0.1.0",
+  "summary": "A short description of UMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shiym1/UMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shiym1": "shiym1@newhope.cn"
+  },
+  "source": {
+    "git": "https://github.com/shiym1/UMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UMKit/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "UMCCommon": [
+      "~> 7.3.7"
+    ]
+  }
+}

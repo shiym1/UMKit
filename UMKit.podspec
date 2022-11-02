@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/石沿明/UMKit'
+  s.homepage         = 'https://github.com/shiym1/UMKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '石沿明' => 'shiym1@newhope.cn' }
-  s.source           = { :git => 'https://github.com/石沿明/UMKit.git', :tag => s.version.to_s }
+  s.author           = { 'shiym1' => 'shiym1@newhope.cn' }
+  s.source           = { :git => 'https://github.com/shiym1/UMKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'UMKit/Classes/**/*'
-  
+  s.static_framework = true
+  s.dependency 'UMCCommon', '~> 7.3.7'
   # s.resource_bundles = {
   #   'UMKit' => ['UMKit/Assets/*.png']
   # }
